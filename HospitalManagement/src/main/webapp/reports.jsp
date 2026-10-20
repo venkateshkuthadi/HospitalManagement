@@ -27,15 +27,15 @@
 
         /* Sidebar */
         .sidebar {
-            width: 230px;
+            width: 270px;
             background-color: #263238;
             color: white;
-            min-height: 100vh;
+            min-height: 250vh;
         }
 
         .sidebar h2 {
             text-align: center;
-            padding: 22px 10px;
+            padding: 28px 18px;
             background-color: #1e272c;
             font-size: 20px;
         }
@@ -277,38 +277,74 @@
     <div class="sidebar">
 
         <h2>Hospital Billing</h2>
+        <ul class="menu">
 
-        <a href="${pageContext.request.contextPath}/billing/dashboard">
-            Dashboard
-        </a>
+        <li>
+            <a href="index.jsp"
+                 class="active">
+                <span class="menu-icon">🏠</span>
+                <span class="menu-text">Dashboard</span>
+            </a>
+            </li>
+           
+        <li>
+            <a href="patient.jsp">
+                <a href="patient.jsp">👤 Patient</a>
+            </a>
+        </li>
 
-        <a href="${pageContext.request.contextPath}/patients">
-            Patients
-        </a>
+        <li>
+            <a href="service.jsp">
+                <span class="menu-icon">🩺</span>
+                <span class="menu-text">Service</span>
+            </a>
+        </li>
 
-        <a href="${pageContext.request.contextPath}/services">
-            Services
-        </a>
+        <li>
+            <a href="billing.jsp">
+                <span class="menu-icon">🧾</span>
+                <span class="menu-text">Bills</span>
+            </a>
+        </li>
 
-        <a href="${pageContext.request.contextPath}/bills">
-            Bills
-        </a>
+        <li>
+            <a href="bill items.jsp">
+                <span class="menu-icon">📋</span>
+                <span class="menu-text">Bill Items</span>
+            </a>
+        </li>
 
-        <a href="${pageContext.request.contextPath}/payments">
-            Payments
-        </a>
+        <li>
+            <a href="payment.jsp">
+                <span class="menu-icon">💳</span>
+                <span class="menu-text">Payments</span>
+            </a>
+        </li>
 
-        <a href="${pageContext.request.contextPath}/insurance">
-            Insurance
-        </a>
+        <li>
+            <a href="insurance.jsp">
+                <span class="menu-icon">🛡️</span>
+                <span class="menu-text">Insurance</span>
+            </a>
+        </li>
 
-        <a href="${pageContext.request.contextPath}/government-portal">
-            Government Portal
-        </a>
+        <li>
+            <a href="government portal.jsp">
+                <span class="menu-icon">🏛️</span>
+                <span class="menu-text">Government Portal</span>
+            </a>
+        </li>
 
-        <a href="${pageContext.request.contextPath}/summary">
-            Summary
-        </a>
+        <li>
+            <a href="summary.jsp">
+                <span class="menu-icon">📊</span>
+                <span class="menu-text">Summary</span>
+            </a>
+        </li>
+
+        <li>
+
+        
 
         <a href="${pageContext.request.contextPath}/reports"
            class="active">

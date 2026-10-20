@@ -271,7 +271,7 @@
 
         <form action="SaveBillServlet" method="post">
 
-            <h2> class="section-title">Patient Information</h2>
+            
 
             <div class="form-grid">
 
