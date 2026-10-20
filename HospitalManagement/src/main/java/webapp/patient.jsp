@@ -271,7 +271,6 @@
 
         <form action="SaveBillServlet" method="post">
 
-            
 
             <div class="form-grid">
 

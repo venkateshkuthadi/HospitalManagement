@@ -1,5 +1,5 @@
 package com.HaspitalManagement.service;
 
-public class DummyService {
+public class PatientService {
 
 }

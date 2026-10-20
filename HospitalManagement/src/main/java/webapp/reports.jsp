@@ -27,15 +27,15 @@
 
         /* Sidebar */
         .sidebar {
-            width: 270px;
+            width: 230px;
             background-color: #263238;
             color: white;
-            min-height: 250vh;
+            min-height: 100vh;
         }
 
         .sidebar h2 {
             text-align: center;
-            padding: 28px 18px;
+            padding: 22px 10px;
             background-color: #1e272c;
             font-size: 20px;
         }
@@ -277,79 +277,67 @@
     <div class="sidebar">
 
         <h2>Hospital Billing</h2>
-        <ul class="menu">
 
-        <li>
-            <a href="index.jsp"
+        <a href="index.jsp"
                  class="active">
-                <span class="menu-icon">🏠</span>
+                
                 <span class="menu-text">Dashboard</span>
             </a>
-            </li>
+            
            
-        <li>
-            <a href="patient.jsp">
-                <a href="patient.jsp">👤 Patient</a>
+   <a href="patient.jsp">
+                <a href="patient.jsp">Patient</a>
             </a>
-        </li>
-
-        <li>
+       
             <a href="service.jsp">
-                <span class="menu-icon">🩺</span>
-                <span class="menu-text">Service</span>
+                    <span class="menu-text">Service</span>
             </a>
-        </li>
-
-        <li>
-            <a href="billing.jsp">
-                <span class="menu-icon">🧾</span>
-                <span class="menu-text">Bills</span>
-            </a>
-        </li>
-
-        <li>
-            <a href="bill items.jsp">
-                <span class="menu-icon">📋</span>
-                <span class="menu-text">Bill Items</span>
-            </a>
-        </li>
-
-        <li>
-            <a href="payment.jsp">
-                <span class="menu-icon">💳</span>
-                <span class="menu-text">Payments</span>
-            </a>
-        </li>
-
-        <li>
-            <a href="insurance.jsp">
-                <span class="menu-icon">🛡️</span>
-                <span class="menu-text">Insurance</span>
-            </a>
-        </li>
-
-        <li>
-            <a href="government portal.jsp">
-                <span class="menu-icon">🏛️</span>
-                <span class="menu-text">Government Portal</span>
-            </a>
-        </li>
-
-        <li>
-            <a href="summary.jsp">
-                <span class="menu-icon">📊</span>
-                <span class="menu-text">Summary</span>
-            </a>
-        </li>
-
-        <li>
-
         
 
-        <a href="${pageContext.request.contextPath}/reports"
-           class="active">
-            Reports
-        </a>
+        
+            <a href="billing.jsp">
+                
+                <span class="menu-text">Bills</span>
+            </a>
+       
+
+        
+            <a href="bill items.jsp">
+                
+                <span class="menu-text">Bill Items</span>
+            </a>
+        
+        
+            <a href="payment.jsp">
+                
+                <span class="menu-text">Payments</span>
+            </a>
+        
+
+        
+            <a href="insurance.jsp">
+                
+                <span class="menu-text">Insurance</span>
+            </a>
+        
+
+                    <a href="government portal.jsp">
+                
+                <span class="menu-text">Government Portal</span>
+            </a>
+        
+        
+            <a href="summary.jsp">
+                
+                <span class="menu-text">Summary</span>
+            </a>
+        
+
+        
+            <a href="reports.jsp" class="active">
+                
+                <span class="menu-text">Reports</span>
+            </a>
 
         <a href="${pageContext.request.contextPath}/logout"
            class="logout">

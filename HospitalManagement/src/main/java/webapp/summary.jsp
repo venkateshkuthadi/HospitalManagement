@@ -145,7 +145,7 @@
  <div class="sidebar">
 
     <div class="logo">
-        
+        <span>Hospital Billing</span>
     </div>
 
 
