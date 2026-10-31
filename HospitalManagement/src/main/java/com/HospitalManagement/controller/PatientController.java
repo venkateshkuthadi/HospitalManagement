@@ -1,5 +1,4 @@
-
-package com.HaspitalManagement.controller;
+package com.HospitalManagement.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -9,8 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.HaspitalManagement.dao.PatientDAO;
-import com.HaspitalManagement.entity.Patient;
+import com.HospitalManagement.entity.Patient;
+import com.HospitalManagement.dao.PatientDAO;
 
 @Controller
 @RequestMapping("/patient")
@@ -87,3 +86,5 @@ public class PatientController {
         return "redirect:/patient/list";
     }
 }
+
+

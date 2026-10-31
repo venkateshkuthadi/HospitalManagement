@@ -1,12 +1,12 @@
 
-package com.HaspitalManagement.dao;
+package com.HospitalManagement.dao;
 
 import java.util.List;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.HaspitalManagement.entity.Patient;
+import com.HospitalManagement.entity.Patient;
 
 @Repository
 public class PatientDAO {
